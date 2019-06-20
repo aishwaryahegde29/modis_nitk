@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/modis_nitk" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
