@@ -9,15 +9,15 @@
 [general]
 name=MODIS_NITK
 qgisMinimumVersion=3.0
-description=Plugin to process modis data
+description=Plugin to process MODIS data available in HDF Format to user friendly GeoTiff (.tif) format and provide an option for Time Series analysis of raster dataset at single and multiple coordinate location
 version=0.1
-author=NITK
+author=Aishwarya Hegde A, Pruthviraj Umesh, Amba Shetty
 email=aishwaryahegde29@gmail.com
 
-about=A QGIS plugin to process MODIS LST, Emissivity and Vegetative Indices Data
+about=A QGIS plugin to process MODIS data available in HDF Format to user friendly GeoTiff (.tif) format and provide an option for Time Series analysis of raster dataset at single and multiple coordinate location
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/aishwaryahegde29/modis_nitk/issues
+repository=https://github.com/aishwaryahegde29/modis_nitk
 # End of mandatory metadata
 
 # Recommended items:
@@ -26,13 +26,13 @@ repository=http://repo
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python,MODIS,HDF to GeoTiff,ScaleFactor,SDS Layer,TimeSeries Analysis,Graph
 
-homepage=http://homepage
+homepage=https://github.com/aishwaryahegde29/modis_nitk
 category=Plugins
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
